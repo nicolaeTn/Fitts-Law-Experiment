@@ -13,9 +13,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 /**
- * This class examines Fitt's law by providing the user with 10 targets
+ * This class examines Fitts's law by providing the user with 10 targets
  * of different widths that have to be clicked as fast as possible. According to 
- * Fitt's Law, the time required to quickly move to a target area is a function of the ratio
+ * Fitts's Law, the time required to quickly move to a target area is a function of the ratio
  * between the distance to the target and the width of the target (Wikipedia). After completing
  * the task the user is presented with a line chart of time taken to click a target vs the index
  * of difficulty of the target (= log base 2 of (target_distance/target_width +1)).
@@ -75,7 +75,7 @@ public class Driver extends Application{
 			}
 		});
 		primaryStage.setScene(scene);
-		primaryStage.setTitle("Fitt's Law Experiment");
+		primaryStage.setTitle("Fitts's Law Experiment");
 		// Shows the stage
 		primaryStage.show();
 
